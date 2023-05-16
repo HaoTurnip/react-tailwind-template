@@ -3,6 +3,8 @@ import { render } from "react-dom";
 import Hello from "./Hello";
 import "./style.css";
 import Navbar from "./navbar.component";
+import ProductGrid from "./productsgrid.component"
+import Footer from "./Footer.component"
 
 class App extends Component {
   constructor() {
@@ -16,7 +18,12 @@ class App extends Component {
     return (
       <div>
         <Navbar/>
+        <ProductGrid/>
+        <Footer/>
       </div>
+    
+        
+    
     );
   }
 }
